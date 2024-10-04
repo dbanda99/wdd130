@@ -25,7 +25,7 @@
 }
 
 .hero_frame {
-    background-image: url("https://picsum.photos/2400");
+    background-image: url("../images/rafting_picture.jpg");
     background-size: cover; /* Ensures the image covers the entire div */
     background-position: center; /* Centers the image within the div */
     background-repeat: no-repeat; /* Prevents the image from repeating */
@@ -35,6 +35,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.div01 {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    opacity: 85%;
 }
 
 .pic_on_paragraph {
@@ -79,4 +93,21 @@
 .img_socials {
     width: 30px;
     height: 30px;
+}
+
+.hero_frame h1 {
+    margin-top: -25px;
+    font-size: 48pt;
+    font-weight: bold;
+    color: #ffffff;
+    -webkit-text-stroke: 3px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
+.adventure_images {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
