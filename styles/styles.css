@@ -3,22 +3,52 @@ body {
   font-family: Arial, sans-serif;
 }
 
+header, footer, .grid {
+  margin: 0 auto;
+  max-width: 840px;
+}
+
 .grid {
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 20px;
-  max-width: 900px;
-  margin: 0 auto;
   padding: 20px;
-}
-
-aside.peru-section {
-  background-color: #f3f3f3;
-  padding: 1rem;
 }
 
 main {
   grid-column: 2;
+}
+
+aside {
+  grid-row: 1;
+  position: relative;
+  background-color: #f3f3f3;
+  padding: 1rem;
+}
+
+.image-container {
+  position: relative;
+  text-align: left;
+  color: white;
+  padding: 0;
+}
+
+.image-container h2 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  margin: 0;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 5px 10px;
+  font-size: 1.5rem;
+}
+
+aside img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
 }
 
 header nav {
@@ -47,49 +77,39 @@ hr.blue-line {
   margin: 0.5rem 0;
 }
 
-h2 {
-  color: steelblue;
-  font-size: 1.5rem;
-}
-
-aside img {
-  width: 100%;
-  height: auto;
-  border: 1px solid #ccc;
-  margin-top: 1rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
 .profile-image {
   width: 120px;
   height: 160px;
   border: 2px solid steelblue;
   float: right;
   margin-left: 15px;
+  margin-top: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-p, ul {
-  margin-top: 1rem;
-  line-height: 1.5;
+.temple-links-wrapper {
+  background-color: #f3f3f3; /* Set background color for the entire section */
+  padding: 10px; /* Padding around the list */
+  border-radius: 4px; /* Optional: rounded corners */
+  margin-top: 10rem;
 }
 
 .temple-links {
-  background-color: #f3f3f3;
-  padding: 1rem;
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 0; /* Reset margin for consistency */
 }
 
-ul {
-  list-style: none;
-  padding: 0;
+.temple-links li {
+  margin-bottom: 0.5rem;
 }
 
-ul li a {
-  text-decoration: none;
+.temple-links a {
   color: steelblue;
+  text-decoration: none;
 }
 
-ul li a:hover {
+.temple-links a:hover {
   text-decoration: underline;
 }
 
