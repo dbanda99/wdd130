@@ -1,6 +1,13 @@
+/* Apply Roboto for general body text */
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Apply Playfair Display for headings */
+h1, h2 {
+    font-family: 'Playfair Display', serif;
 }
 
 .header {
@@ -13,7 +20,7 @@ body {
 }
 
 .nav_logo {
-    max-width: 100px;
+    max-width: 250px;
 }
 
 .navigator {
@@ -26,6 +33,7 @@ body {
     font-size: 14pt;
     color: white;
     text-decoration: none;
+    font-family: 'Roboto', Arial, sans-serif;
 }
 
 .navigator a:hover {
