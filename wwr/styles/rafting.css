@@ -1,0 +1,123 @@
+/* Apply Roboto for general body text */
+body {
+    margin: 0;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Apply Playfair Display for headings */
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px;
+}
+
+.nav_logo {
+    max-width: 250px;
+}
+
+.navigator {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.navigator a {
+    font-size: 14pt;
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+.navigator a:hover {
+    color: rgb(177, 237, 255);
+    text-decoration: underline;
+}
+
+.hero_frame {
+    background-image: url("../images/rafting_picture.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div01 {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    opacity: 85%;
+}
+
+#hero_pic {
+    width: 500px;
+    height: 150px;
+}
+
+.history_block, .adventure_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.adventure_images {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.adventure_images figure {
+    text-align: center;
+}
+
+.adventure_images img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.adventure_images figcaption {
+    margin-top: 5px;
+    font-size: 12px;
+    color: gray;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.socials {
+    display: flex;
+    gap: 20px;
+}
+
+.img_socials {
+    width: 25px;
+    height: 25px;
+}
