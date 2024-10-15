@@ -1,0 +1,61 @@
+.body {
+    margin-top: 75px;
+    background-color: rgb(244, 244, 244);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    
+}
+
+.input_field {
+    padding:  15px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.button {
+    border: solid white 1px;
+    height: 35px;
+    border-radius: 5px;
+    color: white;
+    background-color: #4cb050;
+}
+
+.input_fields {
+    height: 25px;
+}
+
+.paragraph_text {
+    height: 75px;
+}
+
+.legends {
+    font-weight: 300;
+}
+
+.button:hover {
+    background-color: #39923c;
+    cursor: pointer;
+}
+
+.field_title {
+    font-weight: bold;
+}
+
+.footer {
+    font-size: 8pt;
+    text-align: center;
+}
