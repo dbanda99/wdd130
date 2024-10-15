@@ -4,14 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cumorah Rifting - Contact Us</title>
-    <meta name="description" content="Get in touch with Cumorah Rifting, learn about our team, and find answers to your questions.">
+    <meta name="description" content="Contact Cumorah Rifting to learn more about our adventures, meet our team, and send us your inquiries." />
+    <meta name="author" content="David Banda" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 <body>
     <!-- Header -->
     <header class="header">
         <img class="nav_logo" src="images/cumorah.png" alt="The Cumorah Logo"/>
-        <h1>Cumorah Rifting</h1>
+        <h1>Contact Cumorah Rifting</h1>
         <nav class="navigator">
             <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
@@ -20,62 +24,65 @@
         </nav>
     </header>
 
-    <!-- Company Information Section -->
-    <section class="company-info">
-        <h2>Contact Information</h2>
-        <p>Address: 123 Rafting Road, Rapids City</p>
-        <p>Phone: (123) 456-7890</p>
-        <p>Email: contact@cumorahrafting.com</p>
-        <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=..." width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
-    </section>
+    <!-- Main Content -->
+    <main>
+        <!-- Company Information Section -->
+        <section class="company-info">
+            <h2>Contact Information</h2>
+            <p>Address: 123 Rafting Road, Rapids City</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>Email: contact@cumorahrafting.com</p>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=..." allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
 
-    <!-- Employee Profiles Section -->
-    <section class="employee-profiles">
-        <h2>Meet Our Team</h2>
-        <figure>
-            <img src="images/icon1.png" alt="Happy Employee 1">
-            <figcaption>Rafting Guide</figcaption>
-        </figure>
-        <figure>
-            <img src="images/icon2.png" alt="Happy Employee 2">
-            <figcaption>Customer Support</figcaption>
-        </figure>
-        <figure>
-            <img src="images/icon3.png" alt="Happy Employee 3">
-            <figcaption>Adventure Planner</figcaption>
-        </figure>
-    </section>
+        <!-- Employee Profiles Section -->
+        <section class="employee-profiles">
+            <h2>Meet Our Team</h2>
+            <figure>
+                <img src="images/icon1.png" alt="Happy Employee 1">
+                <figcaption>Rafting Guide</figcaption>
+            </figure>
+            <figure>
+                <img src="images/icon2.png" alt="Happy Employee 2">
+                <figcaption>Customer Support</figcaption>
+            </figure>
+            <figure>
+                <img src="images/icon3.png" alt="Happy Employee 3">
+                <figcaption>Adventure Planner</figcaption>
+            </figure>
+        </section>
 
-    <!-- Contact Form Section -->
-    <section class="contact-form">
-        <h2>Contact Us</h2>
-        <form action="/submit-form" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
+        <!-- Contact Form Section -->
+        <section class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="/submit-form" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
 
-            <p>Purpose of Message:</p>
-            <input type="radio" id="general" name="purpose" value="General Inquiry" required>
-            <label for="general">General Inquiry</label>
-            <input type="radio" id="reservation" name="purpose" value="Reservation Question">
-            <label for="reservation">Reservation Question</label>
-            <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
-            <label for="suggestion">Website Suggestion</label>
+                <p>Purpose of Message:</p>
+                <input type="radio" id="general" name="purpose" value="General Inquiry" required>
+                <label for="general">General Inquiry</label>
+                <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+                <label for="reservation">Reservation Question</label>
+                <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
+                <label for="suggestion">Website Suggestion</label>
 
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
 
-            <label>
-                <input type="checkbox" name="subscribe"> Please subscribe me to the monthly newsletter
-            </label>
+                <label>
+                    <input type="checkbox" name="subscribe"> Please subscribe me to the monthly newsletter
+                </label>
 
-            <button type="submit" class="submit-button">Send Message</button>
-        </form>
-    </section>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer class="footer">
@@ -85,7 +92,6 @@
             <a href="https://www.instagram.com"><img class="img_socials" src="images/instagram.png" alt="Instagram Logo"/></a>
             <a href="https://www.twitter.com"><img class="img_socials" src="images/twitter.png" alt="Twitter Logo"/></a>
         </div>
-        <!-- Link to Wireframe Image -->
         <a href="path/to/wireframe.png" target="_blank">View Wireframe</a>
     </footer>
 </body>
