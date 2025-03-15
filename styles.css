@@ -44,9 +44,20 @@ main {
 
 /* Image Styling */
 img {
-    border-radius: 50%;
-    border: 3px solid #0044cc;
+    border-radius: 10px;
+    border: 2px solid #0044cc;
     margin: 10px;
+    max-width: 100%;
+}
+
+/* Aside Styling */
+aside {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #e0e0e0;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Footer Styling */
@@ -57,6 +68,21 @@ footer {
     margin-top: 20px;
 }
 
+/* Required CSS Rules */
+h1 {
+    font-size: 24px;
+    color: #222;
+}
+
+p {
+    padding: 10px;
+}
+
+aside img {
+    border-radius: 5px;
+    max-width: 100%;
+}
+
 /* Responsive Design */
 @media (max-width: 600px) {
     nav {
@@ -64,7 +90,7 @@ footer {
         gap: 10px;
     }
 
-    main {
+    main, aside {
         width: 90%;
     }
 }
