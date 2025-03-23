@@ -1,0 +1,156 @@
+/* Variables */
+:root {
+    --primary-color: #0E103D;
+    --secondary-color: #69306D;
+    --accent1-color: #A5668B;
+    --accent2-color: #F2D7EE;
+    --light-bg: #fafafa;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-color);
+    background-color: var(--light-bg);
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Header */
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--accent2-color);
+    padding: 0.5rem 1rem;
+  }
+  
+  header img {
+    max-height: 60px;
+  }
+  
+  header nav a {
+    text-decoration: none;
+    color: var(--primary-color);
+    margin: 0 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
+  
+  /* Hero Section */
+  .hero {
+    position: relative;
+    width: 100%;
+    background-color: var(--accent2-color);
+    overflow: hidden;
+    margin-bottom: 2rem;
+  }
+  
+  /* If you want a background image in the hero, uncomment below and adjust the path
+  .hero {
+    background: url("../images/hero.jpg") no-repeat center/cover;
+    min-height: 400px;
+  }
+  */
+  
+  .hero-image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .hero h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: var(--secondary-color);
+    text-align: center;
+    margin: 1rem 0;
+  }
+  
+  .hero article {
+    max-width: 800px;
+    margin: 0 auto 2rem auto;
+    padding: 0 1rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  
+  .hero article img {
+    max-width: 200px;
+    height: auto;
+    float: right;
+  }
+  
+  .hero article p {
+    line-height: 1.6;
+  }
+  
+  /* Section: History */
+  .history {
+    padding: 2rem 1rem;
+    background-color: #fff;
+    margin-bottom: 2rem;
+  }
+  
+  .history h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+  
+  .history p {
+    line-height: 1.6;
+  }
+  
+  /* Section: Adventure Awaits You */
+  .adventure {
+    padding: 2rem 1rem;
+    background-color: var(--accent2-color);
+  }
+  
+  .adventure h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.75rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+  }
+  
+  .adventure img {
+    width: 150px;
+    height: auto;
+    margin: 0.5rem;
+    border: 2px solid var(--primary-color);
+  }
+  
+  /* Footer */
+  footer {
+    background-color: var(--accent2-color);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  footer p {
+    margin: 0.5rem 0;
+    color: var(--primary-color);
+  }
+  
+  footer .social {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  /* Remove underline from social media links only */
+  footer .social a {
+    text-decoration: none;
+  }
+  
+  footer .social img {
+    width: 32px;
+    height: 32px;
+  }
+  
