@@ -47,13 +47,6 @@
     margin-bottom: 2rem;
   }
   
-  /* If you want a background image in the hero, uncomment below and adjust the path
-  .hero {
-    background: url("../images/hero.jpg") no-repeat center/cover;
-    min-height: 400px;
-  }
-  */
-  
   .hero-image {
     display: block;
     width: 100%;
